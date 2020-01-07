@@ -191,11 +191,11 @@ ctrl + alt + i
 
 #slim-lock
 ctrl + alt + k
-     slimlock
+     betterlockscreen -l dimblur
 
 #Slimlock
 ctrl + alt + l
-    slimlock
+    betterlockscreen -l dimblur
 
 #Slimlock
 super + k
