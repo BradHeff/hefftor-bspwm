@@ -8,11 +8,11 @@
 
 # Vivaldi
 super + F1
-	vivaldi-stable
+	firefox
 
 # Atom
 super + F2
-	atom
+	code
 
 #Inkscape
 super + F3
@@ -60,11 +60,11 @@ super + F12
 
 #Atom
 super + e
-    atom
+    code
 
 #Browser
 super + w
-    vivaldi-stable
+    firefox
 
 #Conky-toggle
 super + c
@@ -164,7 +164,7 @@ ctrl + alt + Prior
 
 #Atom
 ctrl + alt + w
-     atom
+     code
 #File-Manager
 ctrl + alt + b
      thunar
@@ -231,7 +231,7 @@ ctrl + alt + t
 
 #Vivaldi
 ctrl + alt + v
-    vivaldi-stable
+    firefox
 
 #Xfce4-appfinder
 ctrl + alt + a
