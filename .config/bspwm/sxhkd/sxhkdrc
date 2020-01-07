@@ -102,18 +102,18 @@ super + v
 super + m
     pragha
 
-#Termite
+#urxvt
 super + Return
-    termite
+    urxvt
 
 #Xkill
 super + Escape
     xkill
 
 #Keyboard dependent
-#termite
+#urxvt
 #super + KP_Enter
-#	termite
+#	urxvt
 
 #################################################################
 # SUPER + SHIFT KEYS
@@ -128,9 +128,18 @@ super + shift + Return
 #super + shift + KP_Enter
 #	thunar
 
+super + shift + w
+    ~/.local/bin/dmenu.sh
+
 #dmenu
 super + shift + d
-	dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=14'
+    rofi -show drun
+
+super + shift + plus
+    ~/.local/bin/lmc up
+
+super + shift + minus
+    ~/.local/bin/lmc down
 
 #reload sxhkd:
 super + shift + s
@@ -212,13 +221,13 @@ ctrl + alt + r
 ctrl + alt + s
    spotify
 
-#Termite
+#urxvt
 ctrl + alt + Return
-    termite
+    urxvt
 
-#termite
+#urxvt
 ctrl + alt + t
-    termite
+    urxvt
 
 #Vivaldi
 ctrl + alt + v
@@ -230,9 +239,9 @@ ctrl + alt + a
 
 
 #Keyboard dependent
-#termite
+#urxvt
 #ctrl + alt + KP_Enter
-#     termite
+#     urxvt
 
 
 #################################################################
