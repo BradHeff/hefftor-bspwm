@@ -57,7 +57,7 @@ bspc rule -a VirtualBox Manager state=fullscreen
 bspc rule -a VirtualBox Machine state=fullscreen
 
 #Floating applications
-bspc rule -a Gimp state=floating
+bspc rule -a Gimp-2.10 state=floating
 bspc rule -a krita state=floating
 bspc rule -a Arandr state=floating
 bspc rule -a feh state=floating
