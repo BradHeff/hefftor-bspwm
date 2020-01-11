@@ -20,7 +20,7 @@ $HOME/.config/polybar/launch.sh &
 
 #Some ways to set your wallpaper besides variety or nitrogen
 #feh --bg-scale ~/.config/bspwm/wall.png &
-feh --bg-fill /usr/share/backgrounds/hefftorlinux/journey_in_middle_earth.png &
+feh --bg-fill /usr/share/backgrounds/hefftorlinux/Hefftor_4k.png &
 #feh --randomize --bg-fill ~/Képek/*
 #feh --randomize --bg-fill ~/Dropbox/Apps/Desktoppr/*
 wal -nRa 90 &
@@ -28,7 +28,7 @@ wal -nRa 90 &
 xsetroot -cursor_name left_ptr &
 run sxhkd -c ~/.config/bspwm/sxhkd/sxhkdrc &
 
-conky &
+run conky &
 # run variety &
 run nm-applet &
 run pamac-tray &

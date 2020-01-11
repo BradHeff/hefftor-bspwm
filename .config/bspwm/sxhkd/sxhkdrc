@@ -199,7 +199,7 @@ ctrl + alt + l
 
 #Slimlock
 super + k
-    slimlock
+    betterlockscreen -l dimblur
 
 #Pamac-manager
 ctrl + alt + p
