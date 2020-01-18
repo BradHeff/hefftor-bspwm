@@ -8,7 +8,7 @@
 
 # Vivaldi
 super + F1
-	firefox
+	brave
 
 # Atom
 super + F2
@@ -64,7 +64,7 @@ super + e
 
 #Browser
 super + w
-    firefox
+    brave
 
 #Conky-toggle
 super + c
@@ -183,7 +183,7 @@ ctrl + alt + e
 
 #Firefox
 ctrl + alt + f
-     firefox
+     brave
 
 #Nitrogen
 ctrl + alt + i
@@ -231,7 +231,7 @@ ctrl + alt + t
 
 #Vivaldi
 ctrl + alt + v
-    firefox
+    brave
 
 #Xfce4-appfinder
 ctrl + alt + a
