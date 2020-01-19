@@ -102,6 +102,10 @@ super + v
 super + m
     pragha
 
+#scratchpad
+super + d
+    id=$(cat /tmp/scratchid);bspc node $id --flag hidden;bspc node -f $id
+    
 #urxvt
 super + Return
     urxvt
