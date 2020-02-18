@@ -27,6 +27,7 @@ wal -nRa 90 &
 
 xsetroot -cursor_name left_ptr &
 run sxhkd -c ~/.config/bspwm/sxhkd/sxhkdrc &
+dex $HOME/.config/autostart/arcolinux-welcome-app.desktop
 
 run conky &
 # run variety &
