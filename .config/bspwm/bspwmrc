@@ -61,7 +61,7 @@ bspc rule -a Gimp-2.10 state=floating
 bspc rule -a krita state=floating
 bspc rule -a Arandr state=floating
 bspc rule -a feh state=floating
-bspc rule -a Hefftor-Skel-App.py state=floating
+# bspc rule -a Hefftor-Skel-App.py state=floating
 #bspc rule -a mpv state=floating sticky=on
 #bspc rule -a Font-manager state=floating
 # bspc rule -a Galculator state=floating
