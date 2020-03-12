@@ -27,7 +27,7 @@ wal -nRa 90 &
 
 xsetroot -cursor_name left_ptr &
 run sxhkd -c ~/.config/bspwm/sxhkd/sxhkdrc &
-dex $HOME/.config/autostart/arcolinux-welcome-app.desktop
+dex $HOME/.config/autostart/hefftor-welcome-app.desktop
 
 run conky -c ~/.conkyrc &
 run conky -c ~/.conkyrc_helper &
