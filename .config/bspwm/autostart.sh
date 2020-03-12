@@ -29,7 +29,8 @@ xsetroot -cursor_name left_ptr &
 run sxhkd -c ~/.config/bspwm/sxhkd/sxhkdrc &
 dex $HOME/.config/autostart/arcolinux-welcome-app.desktop
 
-run conky &
+run conky -c ~/.conkyrc &
+run conky -c ~/.conkyrc_helper &
 run glava &
 run mpd &
 # run variety &
