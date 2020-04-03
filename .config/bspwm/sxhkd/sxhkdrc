@@ -74,17 +74,17 @@ super + c
 super + h
     urxvt 'htop task manager' -e htop
 
-#Oblogout
+#hefflogout
 super + x
-    oblogout
+    hefflogout
 
-#Oblogout
+#hefflogout
 super + Pause
-    oblogout
+    hefflogout
 
-#Oblogout
+#hefflogout
 ctrl + alt + Delete
-   oblogout
+   hefflogout
 
 #Rofi theme selector
 super + r
