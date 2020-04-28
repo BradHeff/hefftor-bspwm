@@ -78,10 +78,20 @@ bspc rule -a Xfce4-terminal state=floating
 
 
 bspc rule -a Hefftor-welcome-app.py state=floating
+bspc rule -a Hefftor_welcome_app state=floating
+
 bspc rule -a Hefftor_polybar_switcher.py state=floating
+
 bspc rule -a Hefftor_SkelApp.py state=floating
+
 bspc rule -a Hefftor-betterlockscreen-gui.py state=floating
+bspc rule -a Hefftor_betterlockscreen_gui state=floating
+
 bspc rule -a Hefftor-twm-wallpaper-changer.py state=floating
+
+bspc rule -a Hefftor_skel_gui state=floating
+
+bspc rule -a Hefftor_slick_greeter_gui state=floating
 
 #Tiled applications
 bspc rule -a Gnome-disks state=tiled
