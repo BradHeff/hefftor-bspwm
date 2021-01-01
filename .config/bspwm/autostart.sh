@@ -20,7 +20,7 @@ $HOME/.config/polybar/launch.sh &
 
 #Some ways to set your wallpaper besides variety or nitrogen
 #feh --bg-scale ~/.config/bspwm/wall.png &
-feh --bg-fill /usr/share/backgrounds/hefftorlinux/sundown_landscape.png &
+feh --bg-fill /usr/share/backgrounds/hefftorlinux_4k/stary-night.jpg &
 #feh --randomize --bg-fill ~/Képek/*
 #feh --randomize --bg-fill ~/Dropbox/Apps/Desktoppr/*
 wal -nRa 90 &
@@ -30,7 +30,7 @@ run sxhkd -c ~/.config/bspwm/sxhkd/sxhkdrc &
 dex $HOME/.config/autostart/hefftor-welcome-app.desktop
 
 run conky -c ~/.conkyrc &
-run conky -c ~/.conkyrc_helper &
+# run conky -c ~/.conkyrc_helper &
 run glava &
 run mpd &
 # run variety &
